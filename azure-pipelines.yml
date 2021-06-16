@@ -2,9 +2,9 @@ trigger:
 - master
 
 variables:
-  backendServiceArm: 'Visual Studio Enterprise(17b12858-3960-4e6f-a663-a06fdae23428)'
-  backendAzureRmResourceGroupName: 'resourcegroup-devops-tfstate'
-  backendAzureRmStorageAccountName: 'terraform0tfstate0'
+  backendServiceArm: 'Microsoft Azure Internal Consumption (6a7289e1-5206-45ba-9992-1af7e59a507d)'
+  backendAzureRmResourceGroupName: 'tf_state'
+  backendAzureRmStorageAccountName: 'adportstfstate'
   backendAzureRmContainerName: 'tfstate'
   location: 'westeurope'
   tfBackendEnvironment: tf_backend
