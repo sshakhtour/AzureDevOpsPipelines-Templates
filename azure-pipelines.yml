@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  backendServiceArm: 'Microsoft Azure Internal Consumption (6a7289e1-5206-45ba-9992-1af7e59a507d)'
+  backendServiceArm: 'azure-connection'
   backendAzureRmResourceGroupName: 'tf_state'
   backendAzureRmStorageAccountName: 'adportstfstate'
   backendAzureRmContainerName: 'tfstate'
